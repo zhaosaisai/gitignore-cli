@@ -1,6 +1,6 @@
 {
-  "name": "gitignore",
-  "version": "1.0.0",
+  "name": "@zsee/ignorecli",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
@@ -8,11 +8,18 @@
     "minimist": "^1.2.0"
   },
   "bin": {
-    "github": "bin/github"
+    "gitignore": "bin/gitignore"
   },
   "engines": {
     "node": ">=8"
   },
   "preferGlobal": true,
-  "os" : [ "darwin", "linux" ]
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhaosaisai/gitignore-cli.git"
+  }
 }
