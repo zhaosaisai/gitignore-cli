@@ -6,5 +6,13 @@
   "dependencies": {
     "chalk": "^2.4.1",
     "minimist": "^1.2.0"
-  }
+  },
+  "bin": {
+    "github": "bin/github"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "preferGlobal": true,
+  "os" : [ "darwin", "linux" ]
 }
